@@ -11,6 +11,7 @@ public class Home {
 
     @RequestMapping("/getMesg/{mesg}")
     public String getMesg(@PathVariable(value = "mesg") String mesg) {
+        System.out.println("sss");
         return mesg;
     }
 }
