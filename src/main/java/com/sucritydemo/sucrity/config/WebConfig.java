@@ -1,6 +1,7 @@
 package com.sucritydemo.sucrity.config;
 
 import com.sucritydemo.sucrity.service.HelloService;
+import org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -15,4 +16,5 @@ public class WebConfig {
     public HelloService helloService() {
         return new HelloService();
     }
+
 }
